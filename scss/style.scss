@@ -1,0 +1,72 @@
+@forward 'globals';
+
+// *,*::before,*::after{
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+// }
+
+// body{
+//   font-family: "League Spartan", sans-serif;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .animation{
+//     max-width: 1440px;
+//     width: 100%;
+    
+// }
+
+
+
+// :root{
+//     --White: hsl(0, 100%, 100%);
+//     --Grey-500: hsl(0, 0%, 63%);
+//     --Grey-800: hsl(0, 0%, 27%);
+//     --Black: hsl(0, 0%, 0%);
+//     --image-hero-mobile-1: url(/images/mobile-image-hero-1.jpg);
+//     --image-hero-desktop-1: url(/images/desktop-image-hero-1.jpg);
+//     --image-hero-mobile-2: url(/images/mobile-image-hero-2.jpg);
+//     --image-hero-desktop-2: url(/images/desktop-image-hero-2.jpg);
+//      --image-hero-mobile-3: url(/images/mobile-image-hero-3.jpg);
+//      --image-hero-desktop-3: url(/images/desktop-image-hero-3.jpg);
+// }
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+//   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation {
+  max-width: 100%; // Keep it contained
+  width: 100vw; 
+}
+
+:root {
+  --White: hsl(0, 100%, 100%);
+  --Grey-500: hsl(0, 0%, 63%);
+  --Grey-800: hsl(0, 0%, 27%);
+  --Black: hsl(0, 0%, 0%);
+  --image-hero-mobile-1: url(/images/mobile-image-hero-1.jpg);
+  --image-hero-desktop-1: url(/images/desktop-image-hero-1.jpg);
+  --image-hero-mobile-2: url(/images/mobile-image-hero-2.jpg);
+  --image-hero-desktop-2: url(/images/desktop-image-hero-2.jpg);
+  --image-hero-mobile-3: url(/images/mobile-image-hero-3.jpg);
+  --image-hero-desktop-3: url(/images/desktop-image-hero-3.jpg);
+}
+
+
