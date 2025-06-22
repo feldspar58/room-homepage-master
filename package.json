@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "![Design preview for the Room homepage coding challenge](preview.jpg)",
   "main": "app.js",
-   "scripts": {
+  "scripts": {
     "build": "sass scss/style.scss dist/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
 }
